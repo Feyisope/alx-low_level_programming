@@ -8,12 +8,12 @@
  **/
 int _abs(int k)
 {
-	if (k <= 0)
+	if (k < 0)
 	{
-		return (k);
+		int abs_val;
+
+		abs_val = k * -1;
+		return (abs_val);
 	}
-	else
-	{
-		return (k * -1);
-	}
+	return (k);
 }
