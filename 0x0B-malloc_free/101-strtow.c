@@ -55,7 +55,7 @@ int count_words(char *str)
  * @str: string to be split.
  *
  * Return: ...
- *         
+ *
  */
 char **strtow(char *str)
 {
